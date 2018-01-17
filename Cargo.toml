@@ -1,0 +1,10 @@
+[package]
+name = "chip8_app"
+version = "0.1.0"
+#authors = ["Richard Samuels <richard.l.samuels@gmail.com>"]
+
+[dependencies]
+chip8 = { path = "chip8/" }
+structopt = "0.1.0"
+structopt-derive = "0.1.0"
+sdl2 = "0.31"
